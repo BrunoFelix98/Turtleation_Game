@@ -1,0 +1,329 @@
+/*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*/
+/*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*/
+/*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+font-family: 'MV Boli', sans-serif;
+font-size: 16px;
+}
+
+/*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- */
+/*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- */
+/*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- */
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url('images/TurtleationLogo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'MV Boli', sans-serif;
+}
+
+
+/*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*/
+#UsernameMain{
+font-family: 'MV Boli', sans-serif;
+padding: 10px;
+border-radius: 10px;
+font-size: 25px;
+background-color: #5B1809;
+border: 2px solid white;
+margin-bottom: 10px;
+text-decoration: none;
+color: white;
+flex-direction: column;
+}
+
+#UsernameMain input{
+border-radius: 7px;
+margin-top: 0px;
+padding: 0px;
+margin-bottom: 10px;
+flex-direction: column;
+text-align: center;
+}
+
+/*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*/
+#PasswordMain{
+font-family: 'MV Boli', sans-serif;
+padding: 10px;
+border-radius: 10px;
+font-size: 25px;
+background-color: #5B1809;
+border: 2px solid white;
+margin-bottom: 10px;
+text-decoration: none;
+color: white;
+flex-direction: column;
+}
+
+#PasswordMain input{
+border-radius: 7px;
+margin-top: 0px;
+padding: 0px;
+margin-bottom: 10px;
+flex-direction: column;
+text-align: center;
+}
+
+/*--EMAIL--*//*--EMAIL--*//*--EMAIL--*//*--EMAIL--*//*--EMAIL--*//*--EMAIL--*//*--EMAIL--*//*--EMAIL--*//*--EMAIL--*/
+#Email{
+font-family: 'MV Boli', sans-serif;
+padding: 10px;
+border-radius: 10px;
+font-size: 25px;
+background-color: #5B1809;
+border: 2px solid white;
+margin-bottom: 10px;
+text-decoration: none;
+color: white;
+flex-direction: column;
+}
+
+#Email input{
+font-size: 15px;
+border-radius: 5px;
+background-color: white;
+color: black;
+margin-bottom: 10px;
+margin-top: 0px;
+padding: 0px;
+border:0px;
+flex-direction: column;
+text-align: center;
+}
+
+/*--CONFIRMPASSWORD--*//*--CONFIRMPASSWORD--*//*--CONFIRMPASSWORD--*//*--CONFIRMPASSWORD--*//*--CONFIRMPASSWORD--*//*--CONFIRMPASSWORD--*/
+#ConfirmPassword{
+font-family: 'MV Boli', sans-serif;
+padding: 10px;
+border-radius: 10px;
+font-size: 25px;
+background-color: #5B1809;
+border: 2px solid white;
+margin-bottom: 10px;
+text-decoration: none;
+color: white;
+flex-direction: column;
+}
+
+#ConfirmPassword input{
+border-radius: 7px;
+margin-top: 0px;
+padding: 0px;
+margin-bottom: 10px;
+flex-direction: column;
+text-align: center;
+}
+
+/*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*/
+#logsRegsBtns{
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+
+#logsRegsBtns a{
+font-family: 'MV Boli', sans-serif;
+font-size: 20px;
+padding: 20px 40px;
+text-decoration: none;
+background-color: #5B1809;
+border-radius: 10px;
+border: 2px solid white;
+margin-bottom: 20px;
+}
+
+#logsRegsBtns button{
+font-family: 'MV Boli', sans-serif;
+font-size: 20px;
+padding: 20px 40px;
+text-decoration: none;
+background-color: #5B1809;
+border-radius: 10px;
+border: 2px solid white;
+margin-bottom: 20px;
+color: white;
+}
+
+#logsRegsBtns button:hover{
+background-color: #000000;
+transition: ease-in;
+transition-duration: 0.5s;
+}
+
+#logsRegsBtns a:hover{
+background-color: #000000;
+transition: ease-in;
+transition-duration: 0.5s;
+}
+
+#headers {
+text-align: center;
+margin-bottom: 30px;
+}
+
+#headers h1, #headers h3 {
+text-align: center;
+color: black;
+text-shadow: 3px 3px lightgreen;
+}
+
+#headers h1{
+font-size: 60px;
+}
+
+#headers h3{
+font-size: 30px;
+}
+
+/*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER */
+/*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER */
+/*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER *//*--- FOOTER */
+
+a {
+	color: white;
+}
+ul{
+	list-style: none;
+}
+
+footer {
+	background-color: #171737;
+	color: white;
+	text-align: center;
+	background: linear-gradient(to bottom, #284e7a, #000 100%);
+	padding: 60px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer p{
+text-transform: uppercase;
+font-size: 12px;
+margin-bottom: 10px;
+}
+
+footer ul {
+margin-bottom: 10px;
+display: flex;
+flex-direction: row;
+}
+
+footer ul li{
+margin: 0 10px;
+}
+
+footer ul li a{
+font-size: 30px;
+}
+
+
+#about{
+
+padding: 10px;
+
+}
+
+#about #twocols{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#about h3.title {
+
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+#about-img{
+border:4px solid black;
+border-radius: 100px;
+
+}
+
+#about-img img{
+width: 400px;
+height: 300px;
+border: 30px;
+border-radius: 100px;
+}
+
+#about-bio{
+
+width: 65%;
+max-width: 800px;
+line-height: 2;
+margin-left: 20px;
+background-color: white;
+
+}
+
+hr{
+color: black;
+width: 350px;
+height: 2px;
+background-color: blue;
+border: 3;
+margin: 20px auto;
+}
+
+@media(max-width: 600px){
+
+	#about-img img{
+		width: 200px;
+		height: 150px;
+	}
+
+	#about-bio p{
+		font-size:15px; 
+	}
+
+	#about h3.title{
+		font-size:15px;
+	}
+
+	#logsRegsBtns a{
+
+		font-size:15px;
+		border-radius: 5px;
+		border: 1px solid white;
+		margin-bottom: 10px;
+		padding: 10px 20px;
+
+	}
+
+	#headers {
+		margin-bottom: 15px;
+	}
+
+	#headers h1, #headers h3 {
+		text-shadow: 1.5px 1.5px #000;
+	}
+
+	#headers h1{
+		font-size: 30px;
+	}
+
+	#headers h3{
+		font-size: 15px;
+	}
+}

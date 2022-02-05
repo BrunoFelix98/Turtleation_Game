@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="icon" href="images/TurtleationLogo.png">
+		<title>Trutleation game page</title>
+		<script type="text/javascript" src="jQuery.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+		<script type="text/javascript" src="p5/p5.dom.js"></script>
+		<meta charset="utf-8">
+		<meta name="description" content="This is a Portfolio">
+		<!-- responsive method -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- page browser icon -->
+		<link rel="shortcut icon" type="image/ico" href="">
+		<!-- https://fonts.google.com/ -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+		<!-- https://fontawesome.com/start -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!-- link to CSS -->
+		<link rel="stylesheet" type="text/css" href="style2.css">
+
+		<style type="text/css">	</style>
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="background-image"></div>
+					<div id="headers">
+						<h1 align="left">Turtleation</h1>
+					</div>
+				<div id="Logout">
+					<a href="/logout" class="Headbtn">
+						Logout
+					</a>
+				</div>
+			</div>
+		</header>
+		<div id="LeftPanel">
+			<div id="groupSettings">	
+					<!--Group one -->
+				<h3 align="left">&nbsp;Turtle Group 1 </h3>
+				<label id="G1"></label>
+				
+				<br>
+				<button onclick="selectG(1)">Select group 1</button>
+				<button onclick="RemoveT(1)">Give turtles to nearby group</button>
+				<button onclick="Nesting(1)">Nest here</button>
+				<br>
+				<br>
+					<!--Group two -->
+				<h3 align="left">Turtle Group 2 </h3>
+				<label id="G2"></label>
+				
+				<br>
+				<button onclick="selectG(2)">Select group 2</button>
+				<button onclick="RemoveT(2)">Give turtles to nearby group</button>
+				<button onclick="Nesting(2)">Nest here</button>
+				<!--Tile info-->
+			<form name="TileInformation" action="" method="GET">
+				<div id="tileInfoDiv">
+					<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tile info:</label>
+					<br>
+					<label id="tileInfo"></label>
+				</div>
+			</form>
+			</div>				
+			<!--<div id="movementButtons">
+				<input type="button" id="up&left" onclick="MoveG(1)" value="U/L" style="margin-left: 25px">
+				&nbsp;
+				<input type="button" onclick="MoveG(2)" id="up&right" value="U/R">
+					<br>
+				<input type="button" id="left" onclick="MoveG(3)" value="L">
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				<input type="button" onclick="MoveG(4)" id="right" value="R">
+					<br>
+				<input type="button" id="down&left" onclick="MoveG(5)" value="D/L" style="margin-left: 25px">
+				&nbsp;
+				<input type="button" onclick="MoveG(6)" id="down&right" value="D/R">
+			</div>-->
+		</div>
+		<div id="LeaderboardDiv">
+			<label>Leaderboard</label>
+			<ul id="LeaderboardList"></ul>
+		</div>
+		<section id="Minimap">
+			<canvas id="MinimapC"></canvas>
+		</section>
+		<script type="text/javascript" src="Canvas.js"></script>
+	</body>
+</html>
+
+
